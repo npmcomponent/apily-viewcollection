@@ -17,9 +17,9 @@ module.exports = ViewCollection;
  * Module dependencies
  */
 
-var View = require('view');
-var ViewModel = require('viewmodel');
-var Collection = require('collection');
+var View = require('apily-view');
+var ViewModel = require('apily-viewmodel');
+var Collection = require('apily-collection');
 
 /*
  * ViewCollection

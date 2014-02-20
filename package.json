@@ -1,26 +1,18 @@
-{  
-  "name": "viewcollection",
+{
+  "name": "apily-viewcollection",
   "description": "ViewCollection component",
   "version": "0.0.1",
-  "maintainers": [
-    {
-      "name": "Enrico Marino",
-      "url": "onirame.com"
-    },
-    {
-      "name": "Federico Spini",
-      "url": "federicospini.com"
-    }
+  "keywords": [
+    "HTML",
+    "DOM",
+    "MVC",
+    "view",
+    "viewcollection"
   ],
-  "homepage": "https://github.com/apily/viewcollection",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/apily/viewcollection.git"
+  "dependencies": {
+    "apily-view": "git://github.com/npmcomponent/apily-view.git",
+    "apily-viewmodel": "git://github.com/npmcomponent/apily-viewmodel.git",
+    "apily-collection": "git://github.com/npmcomponent/apily-collection.git"
   },
-  "main": "index.js",
-  "engines": {
-    "node": "*"
-  },
-  "dependencies": {},
-  "devDependencies": {}
+  "license": "MIT"
 }
